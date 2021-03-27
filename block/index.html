@@ -1,0 +1,523 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.0.6">
+    
+    
+      
+        <title>Blockchain - Curso Fundamental Blockchain Insper</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.2c0c5eaf.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.7fa14f5b.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#blockchain" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Curso Fundamental Blockchain Insper" class="md-header__button md-logo" aria-label="Curso Fundamental Blockchain Insper" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Curso Fundamental Blockchain Insper
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Blockchain
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="md-header__options">
+      
+    </div>
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Curso Fundamental Blockchain Insper" class="md-nav__button md-logo" aria-label="Curso Fundamental Blockchain Insper" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Curso Fundamental Blockchain Insper
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../intro/" class="md-nav__link">
+        Introdução
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../btc/" class="md-nav__link">
+        Bitcoin
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Blockchain
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Blockchain
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#blockchain-publico-e-privado" class="md-nav__link">
+    Blockchain Público e Privado
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#smart-contracts-ethereum-dapps" class="md-nav__link">
+    Smart Contracts + Ethereum + dApps
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ecossistema-blockchaincrypto" class="md-nav__link">
+    Ecossistema - Blockchain/Crypto
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cursos" class="md-nav__link">
+    Cursos
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assets/" class="md-nav__link">
+        CryptoAssets
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../law/" class="md-nav__link">
+        Regulação
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../escala/" class="md-nav__link">
+        Escalabilidade
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tech/" class="md-nav__link">
+        Tech
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#blockchain-publico-e-privado" class="md-nav__link">
+    Blockchain Público e Privado
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#smart-contracts-ethereum-dapps" class="md-nav__link">
+    Smart Contracts + Ethereum + dApps
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ecossistema-blockchaincrypto" class="md-nav__link">
+    Ecossistema - Blockchain/Crypto
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cursos" class="md-nav__link">
+    Cursos
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="blockchain">Blockchain</h1>
+<h3 id="introducao">Introdução</h3>
+<p><a href="https://www.youtube.com/watch?v=Z-CZLuLPZwI">Blockchain Takes Manhattan</a></p>
+<p><a href="https://www.youtube.com/watch?v=Pl8OlkkwRpc">How the blockchain is changing money and business | Don Tapscott</a></p>
+<p><a href="https://www.youtube.com/watch?v=2iF73cybTBs&amp;feature=emb_title">The Blockchain and Us</a></p>
+<p><a href="https://www.coindesk.com/information/what-is-blockchain-technology/">What is Blockchain Technology? - CoinDesk</a></p>
+<p><a href="https://www.coindesk.com/information/how-does-blockchain-technology-work/">How Does Blockchain Technology Work? - CoinDesk</a></p>
+<p><a href="https://www.coindesk.com/information/what-is-a-distributed-ledger/">What is a Distributed Ledger? - CoinDesk</a></p>
+<p><a href="https://www.coindesk.com/information/what-can-a-blockchain-do/">What Can a Blockchain Do? - CoinDesk</a></p>
+<p><a href="https://www.coindesk.com/information/applications-use-cases-blockchains/">What Are the Applications and Use Cases of Blockchains? - CoinDesk</a></p>
+<p><a href="https://epocanegocios.globo.com/Tecnologia/noticia/2019/01/blockchain-entenda-tecnologia-que-passa-fazer-parte-da-vida-de-empresas-governos-e-individuos.html?utm_source=facebook&amp;utm_medium=social&amp;utm_campaign=post">Blockchain: entenda a tecnologia</a></p>
+<p><a href="https://blog.ethereum.org/2015/08/07/on-public-and-private-blockchains/">On Public and Private Blockchains - Ethereum Blog</a></p>
+<p><a href="https://www.ibm.com/downloads/cas/36KBMBOG">Blockchain For Dummies - IBM</a></p>
+<h3 id="blockchain-publico-e-privado">Blockchain Público e Privado</h3>
+<p><a href="https://www.coindesk.com/information/what-is-the-difference-between-open-and-permissioned-blockchains/">What is the Difference Between Public and Permissioned Blockchains? - CoinDesk</a></p>
+<p><a href="https://www.youtube.com/watch?v=ZFC-5d9iUQ0">Aula Curso - O que é Blockchain Privado? DLT, R3 Corda, Hyperledger, IBM etc.</a></p>
+<p><a href="www.hyperledger.org/">Hyperledger</a></p>
+<p><a href="https://github.com/bitcoinbook/bitcoinbook">Hyperledger: um blockchain para empresas - BLOCKCHAIN INSPER</a></p>
+<p><a href="https://medium.com/coinmonks/hyperledger-what-is-it-whats-it-good-for-and-wasn-t-it-in-spaceballs-522d8b3857c8">Hyperledger: What is it, what’s it good for, and wasn’t it in Spaceballs?</a></p>
+<p><a href="https://www.corda.net/">Corda: Frictionless Commerce</a></p>
+<p><a href="https://www.visualcapitalist.com/decentralized-finance/">DeFi - Decentralized Finance</a></p>
+<p><a href="https://youtu.be/oC5CasmGnJQ">Corda: Blockchain Insper and R3</a></p>
+<h3 id="smart-contracts-ethereum-dapps">Smart Contracts + Ethereum + dApps</h3>
+<p><a href="https://youtu.be/r0S4qIMf4Pg">What are Smart Contracts &amp; What is their function?</a></p>
+<p><a href="https://medium.com/mosaicouniversity/o-que-s%C3%A3o-smart-contracts-9d9e69d6377c">O que são Smart-Contracts?</a></p>
+<p><a href="https://www.coindesk.com/information/who-created-ethereum/">Who Created Ethereum?</a></p>
+<p><a href="https://www.coindesk.com/information/what-is-ethereum/">What is Ethereum? - CoinDesk Guides</a></p>
+<p><a href="https://auth0.com/blog/an-introduction-to-ethereum-and-smart-contracts-part-2/">An Introduction to Ethereum and Smart Contracts: a Programmable Blockchain</a></p>
+<p><a href="https://www.youtube.com/watch?v=2jisWLxf38E">Deep Dive: Ethereum and Smart Contracts</a></p>
+<p><a href="https://www.youtube.com/watch?v=WSN5BaCzsbo">Decentralizing Everything with Ethereum's Vitalik Buterin | Disrupt SF 2017</a></p>
+<p><a href="https://blockgeeks.com/guides/dapps/">What Are Dapps? The New Decentralized Future</a></p>
+<p><a href="https://blockchainhub.net/decentralized-applications-dapps/">What is a dApp? Decentralized Application on the Blockchain</a></p>
+<h3 id="ecossistema-blockchaincrypto">Ecossistema - Blockchain/Crypto</h3>
+<p><strong>Estudo do Ecossistema</strong></p>
+<p>É interessante notar ao longo dos estudos, que blockchain e criptomoedas acabam envolvendo uma enorme quantidade de dinheiro, esforços, empresas e pessoas no desenvolvimento desse ecossistema. Como já comentamos, temos sorte de poder observar esses movimentos e mais ainda de tentar participar ativamente. Para fechar o Módulo 2 sobre Blockchain, acho que seria interessante mapear, pesquisar e conhecer as principais empresas de algumas áreas desse amplo ecossistema, para que possam entender quem são os big players hoje e provavelmente quem serão os big players no futuro. Não é necessário levar muito tempo nisso, mas entender quem são os CEOs e donos das maiores exchanges, quais as principais wallets, o que é um block explorer e como a blockchain.info pode ganhar dinheiro no futuro, e como funcionam as custódias de criptomoedas como a BitGo já é um caminho!</p>
+<p><a href="https://medium.com/@PanteraCapital/a-crypto-thesis-47eaacf861ca">Crypto Thesis Open Financial Systems</a></p>
+<p><a href="https://guiadobitcoin.com.br/noticias/conheca-o-ecossistema-brasileiro-de-blockchain-e-criptomoedas/">Ecossistema brasileiro</a></p>
+<p><a href="https://blockchainacademy.com.br/o-uso-da-tecnologia-blockchain-na-melhoria-dos-servicos-publicos/?fbclid=IwAR0sf9mmAeyYGLDIdMBDOFiLhKZHNUNLhihLi2hNeXo8mvVZ9pG6RbzC8Pc">O uso da Tecnologia Blockchain na melhoria dos serviços públicos</a></p>
+<p><a href="https://hackernoon.com/consensus-mechanisms-explained-pow-vs-pos-89951c66ae10">Proof of Work vs Proof of Stake: Basic Mining Guide</a></p>
+<p><a href="https://www.youtube.com/watch?v=aRiUG2UeUBc">Porgrammer explains PoW vs PoS | Blockchain</a></p>
+<h3 id="cursos">Cursos</h3>
+<p><a href="https://www.edx.org/course/blockchain-technology">Blockchain Technology</a></p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href="../btc/" class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Bitcoin
+            </div>
+          </div>
+        </a>
+      
+      
+        <a href="../assets/" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              CryptoAssets
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.indexes", "navigation.top"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../assets/javascripts/workers/search.fb4a9340.min.js", "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.a1c7c35e.min.js"></script>
+      
+    
+  </body>
+</html>
