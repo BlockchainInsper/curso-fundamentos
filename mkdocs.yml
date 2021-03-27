@@ -1,0 +1,19 @@
+site_name: Curso Fundamental Blockchain Insper
+
+nav:
+  - Introdução: intro.md
+  - Bitcoin: btc.md
+  - Blockchain: block.md
+  - CryptoAssets: assets.md
+  - Regulação: law.md
+  - Escalabilidade: escala.md
+  - Tech: tech.md
+
+plugins:
+  - search
+
+theme:
+  name: 'material'
+  features:
+    - navigation.indexes
+    - navigation.top
