@@ -22,6 +22,7 @@ Recomendamos a todos que pretendem revisar conteúdo e usar outras fontes de con
 
 [BitcoinBook](https://github.com/bitcoinbook/bitcoinbook)
 
+[Bitcoin para Programadores](https://itsrio.org/wp-content/uploads/2018/06/bitcoin-para-programadores.pdf)
 
 ### Principais conceitos do BTC + Protocolo de Consenso
 [What is Double Spending & How Does Bitcoin Handle It?](https://coinsutra.com/bitcoin-double-spending/)
