@@ -6,31 +6,19 @@ O maior experimento financeiro e sociológico do século XXI, o Bitcoin veio sol
 
 O curso terá duração de 8 semanas, com o início no dia 29/03 e final 23/05 com as apresentações em dupla no dia 29/05 para verificação de conhecimento. E está dividido em 7 módulos (Introdução, Bitcoin, Blockchain, Crypto Assets, Regulação, Escalabilidade e Tecnologia). Dentro desses módulos, há tópicos com textos ou vídeos explicando o assunto, existe mais de um link sobre o tema, caso já tenha entendido o conceito sinta-se à vontade para passar para o próximo tema. O cronograma completo está disponível abaixo:
 
-29/3 - 4/4 > semana feriado > módulos 0 e 1
-
-5/4 - 11/4 > pré p.i 
-
-12/4 - 18/4 > semana de p.i
-
-22/4 - 25/4 > retorno > módulo 2
-
-26/4 - 2/5 > módulo 3
-
-3/5 - 9/5 > módulo 4
-
-10/5 - 16/5 > módulo 5
-
-17/5 - 23/5 > módulo 6
-
-24/5 - 30/5 > apresentação final membros novos
-
-31/5 - 6/5 > pré p.f
-
-7/5 - 13/5 > p.f
-
-14/5 - 20/5 > p.f
-
-
+| Datas          | O que fazer                     |
+| :-------------:| :------------------------------:|
+| `29/3 - 4/4`   | Módulos 0 e 1                   |
+| `12/4 - 18/4`  | Pré P.I                         |
+| `22/4 - 25/4`  | Módulo 2                        |
+| `26/4 - 2/5`   | Módulo 3                        |
+| `3/5 - 9/5`    | Módulo 4                        |
+| `10/5 - 16/5`  | Módulo 5                        |
+| `17/5 - 23/5`  | Módulo 6                        |
+| `24/5 - 30/5`  | Apresentação Final Membros Novos|
+| `31/5 - 6/5`   | Pré P.F                         |
+| `7/5 - 13/5`   | P.F                             |
+| `14/5 - 20/5 ` | P.F                             |
 
 Ao final deste curso os alunos serão divididos em grupos. Ao final de todo o processo, todas os grupos irão fazer para o dia * uma apresentação de um tema fundamental, tendo uma duração média de 20 minutos (PowerPoint ou qualquer outro meio de apresentação). Após a apresentação haverá espaço para perguntas e feedbacks de todos os membros, possivelmente gerando discussões que fomentem o maior aprendizado de todos.
 

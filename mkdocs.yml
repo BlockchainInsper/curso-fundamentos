@@ -14,6 +14,8 @@ plugins:
 
 theme:
   name: 'material'
+  favicon: assets\images\emblema.png
+  logo: assets\images\emblema.png
   features:
     - navigation.indexes
     - navigation.top
