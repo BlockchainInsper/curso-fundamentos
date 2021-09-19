@@ -5,9 +5,9 @@ nav:
   - Bitcoin: btc.md
   - Blockchain: block.md
   - CryptoAssets: assets.md
+  - Chains: chains.md
+  - Tecnologia: tech.md
   - Regulação: law.md
-  - Escalabilidade: escala.md
-  - Tech: tech.md
 
 plugins:
   - search
